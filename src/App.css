@@ -1,0 +1,290 @@
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiper-pagination-bullet-active {
+  background-color: #fff;
+}
+.swiper-slide {
+  margin-bottom: 0px !important;
+}
+
+.color-1 {
+  height: 747px;
+  width: 100vw;
+  background-color: rgb(42, 193, 188);
+  background-image: url(https://www.baemin.com/_next/static/images/main_04@2x.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  inset: 0px;
+  animation: 1s linear 0s 1 normal forwards running zoom-in;
+}
+
+.color-2 {
+  background-color: rgb(42, 193, 188);
+}
+.color-3 {
+  background-color: rgb(42, 193, 188);
+}
+.color-4 {
+  background-color: rgb(42, 193, 188);
+}
+.color-5 {
+  background-color: rgb(42, 193, 188);
+}
+.color-6 {
+  background-color: rgb(42, 193, 188);
+}
+.fg-img {
+  position: fixed;
+  width: 80px;
+  height: 80px;
+  bottom: 45px;
+  z-index: 999;
+}
+.right-top-img {
+  position: fixed;
+  display: flex;
+  width: 109px;
+  height: 142px;
+  right: 0px;
+  top: 0px;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out 0.3s;
+}
+.right-top-img img {
+  position: absolute;
+  width: 155px;
+  height: 186px;
+  right: 0px;
+  top: 0px;
+}
+.div-img {
+  text-align: center;
+}
+.color1-top img {
+  object-fit: contain;
+  display: flex;
+  float: none;
+  width: 28%;
+  height: auto;
+  max-width: 142px;
+  z-index: 999;
+}
+.color1-top {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 3% 17% 0% 25.5%;
+  top: 40px;
+  box-sizing: border-box;
+  z-index: 999;
+}
+
+@keyframes fadeInRightBig {
+  0% {
+    opacity: 0;
+    transform: translate3d(2000px, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.fadeInRightBig {
+  transition: all 0.5s ease-in-out;
+  transform: translate(-50%, -50%);
+  transition-delay: 2s;
+}
+
+.max-up {
+  animation: bounce infinite 2s;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-150px);
+  }
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+  -webkit-box-align: center;
+  align-items: center;
+  min-height: 48px;
+  margin-right: 130px;
+}
+.nav li {
+  margin-right: 10px;
+  width: 45px;
+}
+.nav li img {
+  object-fit: contain;
+  display: flex;
+  float: none;
+  width: 34px;
+  height: auto;
+  right: 30px;
+}
+.color1-mid {
+  width: 100%;
+  height: 100%;
+  padding: 13% 25% 0% 25%;
+  position: relative;
+  box-sizing: border-box;
+}
+.color1-mid-1 {
+  position: relative;
+  z-index: 3;
+  width: 480px;
+}
+.color1-mid img {
+  object-fit: contain;
+  display: flex;
+  float: none;
+  width: 100%;
+  height: auto;
+}
+.color1-mid-2 {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 40px;
+}
+.mid2-left {
+  display: flex;
+  flex-direction: column;
+}
+.color1-mid-2 label {
+  font-size: 95%;
+  font-weight: bold;
+  letter-spacing: -2px;
+  text-align: left;
+  margin-left: 2%;
+}
+.mid-2-button {
+  margin: 15px 0px;
+}
+.mid-2-button button {
+  width: 200px;
+  height: 70px;
+  border-radius: 100px;
+  border: 1px solid white;
+}
+.mid-btn1 {
+  background-image: url(https://www.baemin.com/_next/static/images/img-appstore-default@2x.png);
+  background-repeat: no-repeat;
+  background-size: 140px;
+  background-position: center center;
+  background-color: rgb(255, 255, 255);
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+  height: 70px;
+  margin-right: 12px;
+  padding: 15px 30px;
+  border-radius: 100px;
+}
+.mid-btn2 {
+  background-image: url(https://www.baemin.com/_next/static/images/img-googleplay-default@2x.png);
+  background-repeat: no-repeat;
+  background-size: 140px;
+  background-position: center center;
+  background-color: rgb(255, 255, 255);
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+  height: 70px;
+  margin-right: 12px;
+  padding: 15px 30px;
+  border-radius: 100px;
+}
+.mid2-right {
+  display: flex;
+  flex-direction: column;
+}
+.mid2-right img {
+  width: 193px;
+  height: 193px;
+  margin-top: 15px;
+}
+.mid2-right label {
+  font-size: 95%;
+  font-weight: bold;
+  letter-spacing: -2px;
+  text-align: left;
+  margin-left: 5%;
+}
+.rider-img img {
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  right: 170px;
+  bottom: 80px;
+}
+.ptag {
+  display: flex;
+  font-size: 16px;
+  width: 100%;
+  align-items: flex-start;
+}
+.ptag p {
+  margin: 0px 0px 5px 0px;
+}
+
+.rider-img2 img {
+  width: 580px;
+  height: 700px;
+  position: absolute;
+  right: 180px;
+  bottom: 50px;
+}
